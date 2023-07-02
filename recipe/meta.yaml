@@ -1,5 +1,5 @@
 {% set name = "rich-argparse" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rich_argparse-{{ version }}.tar.gz
-  sha256: 7bf0064213a2222b7068270a8892f5dccde89eb5be9a0d8ae67bb2ebbbfafbbc
+  sha256: bf17fe00603ad90dbb94cd3a6a27a3a0051df6b3363fb1b46300398bb83740ea
 
 build:
   noarch: python
@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/hamdanal/rich-argparse
-  summary: A rich help formatter for argparse
+  summary: Rich help formatters for argparse and optparse
   license: MIT
   license_family: MIT
   license_file: LICENSE
