@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/hamdanal/rich-argparse
-  summary: A rich help formatter for argparse
+  summary: Rich help formatters for argparse and optparse
   license: MIT
   license_family: MIT
   license_file: LICENSE
