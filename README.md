@@ -7,7 +7,7 @@ Home: https://github.com/hamdanal/rich-argparse
 
 Package license: MIT
 
-Summary: A rich help formatter for argparse
+Summary: Rich help formatters for argparse and optparse
 
 Development: https://github.com/hamdanal/rich-argparse
 
