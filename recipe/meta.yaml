@@ -1,5 +1,5 @@
 {% set name = "rich-argparse" %}
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rich_argparse-{{ version }}.tar.gz
-  sha256: 025ca081da4dbb013dd4ea5213a782553ef8653d4da33c5b0a96b0d28f73058e
+  sha256: 84d348d5b6dafe99fffe2c7ea1ca0afe14096c921693445b9eee65ee4fcbfd2c
 
 build:
   noarch: python
